@@ -1,11 +1,11 @@
-def sum(x: float, y: float) -> float:
+def summ(x: float, y: float) -> float:
     """Функция для сложения двух элементов."""
-    return ...
+    return x + y
 
 
 def subtract(x: float, y: float) -> float:
     """Функция для вычитания `y` из `x`."""
-    return ...
+    return x - y
 
 
 def multiply(x: float, y: float) -> float:
@@ -23,7 +23,7 @@ def main(input_string: str) -> float:
     first_number, action, second_number = input_string.split()
     x, y = float(first_number), float(second_number)
     if action == "+":
-        result = sum(x, y)
+        result = summ(x, y)
     elif action == "-":
         result = subtract(x, y)
     elif action == "*":
