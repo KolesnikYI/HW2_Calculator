@@ -1,4 +1,4 @@
-# README в работе...
+# Информация о проекте
 
 ## Что это
 Калькулятор реализованный на python в рамках домашней работы [Института биоинформатики](bioinf.me)
@@ -22,7 +22,7 @@
 - Форматирует первый и последний элементы в числовой формат. Выбрано приведение к `float`, так как на вход может подаваться дробное число, а про необходимость варианта вывода в цельночисловом формате не оговаривалось.
 - Через условие, вызывает необходимую функцию относительно математического оператора со входа. 
   
-#### `sum()`
+#### `summ()`
 Выполняет операцию сложения
 
 #### `subtract()`
@@ -44,6 +44,9 @@
 |имя|GitHub|telegram|роль|
 |-|-|-|-|
 |Колесник Ян|[KolesnikYI](https://github.com/KolesnikYI)|[@yankoleso](https://t.me/yankoleso)|Тимлид, разработка `main()`|
-|Распопова Александра|[alexandraraspopova-git](https://github.com/alexandraraspopova-git)|[@sashkaras](https://t.me/@sashkaras)|Разработка `sum()` и `substract()`|
+|Распопова Александра|[alexandraraspopova-git](https://github.com/alexandraraspopova-git)|[@sashkaras](https://t.me/@sashkaras)|Разработка `summ()` и `substract()`|
 |Сагитдинова Камила|[KamilaS1](https://github.com/KamilaS1)|[@Chamomilkens](https://t.me/@Chamomilkens)|Разработка `multiply()`|
 |Чернявский Данил|[dan4ern](https://github.com/dan4ern)|[@varmalakto](https://t.me/@varmalakto)|Разработка `divide()`|
+
+Тут вот мы созванивались. Сейчас уже математику решаем.
+![](team.png)
