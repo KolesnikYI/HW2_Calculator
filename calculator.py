@@ -15,7 +15,9 @@ def multiply(x: float, y: float) -> float:
 
 def divide(x: float, y: float) -> float:
     """Функция для деления `x` на `y`."""
-    return ...
+    if y == 0:
+        raise ZeroDivisionError("Division by zero is not allowed!")
+    return x / y
 
 
 def main(input_string: str) -> float:
